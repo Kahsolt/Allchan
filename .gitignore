@@ -1,0 +1,21 @@
+# IDEA project
+.idea/
+
+# python cache
+__pycache__
+
+# user defined watch list
+*.watchlist
+
+# db file
+*.sqlite3
+*.sqlite3.bak
+
+# logs
+*.log
+
+# image folder
+images/
+
+# clf module is yet TODO
+clf/

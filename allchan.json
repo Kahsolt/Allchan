@@ -1,0 +1,40 @@
+{
+  "crawler": {
+    "CRAWL_DELAY": 600
+  },
+  "image": {
+    "IMAGE_MIN_WIDTH": 120,
+    "IMAGE_MIN_HEIGHT": 100,
+    "IMAGE_MAX_HW_RATIO": 3.1,
+    "IMAGE_MIN_SIZE": 24576
+  },
+  "downloader" : {
+    "DOWNLOAD_WORKER": 3,
+    "DOWNLOAD_DELAY": 5,
+    "DOWNLOAD_PROXY_ENABLE": true,
+    "DOWNLOAD_PROXY_LOCAL": { "http": "http://127.0.0.1:1080" },
+    "DOWNLOAD_PROXIES": [
+      { "https": "https://117.114.149.66:53281" },
+      { "https": "https://27.17.45.90:43411" },
+      { "https": "https://219.234.5.128:3128" },
+      { "https": "https://118.122.92.252:37901" },
+      { "http": "http://61.135.217.7:80" },
+      { "http": "http://61.183.233.6:54896" },
+      { "http": "http://121.69.37.6:9797" },
+      { "http": "http://219.238.186.188:8118" },
+      { "http": "http://175.102.3.98:8089" },
+      { "http": "http://222.221.11.119:3128" },
+      { "http": "http://180.118.242.167:61234" },
+      { "http": "http://118.187.58.34:53281" },
+      { "http": "http://139.199.38.182:8118" },
+      { "http": "http://218.28.58.150:53281" },
+      { "http": "http://183.129.207.82:18118" },
+      { "http": "http://183.172.131.4:8118" },
+      { "http": "http://112.98.126.100:41578" },
+      { "http": "http://61.176.223.7:58822" },
+      { "http": "http://182.88.151.246:9797" },
+      { "http": "http://61.178.238.122:63000" },
+      { "http": "http://115.46.76.160:8123" }
+    ]
+  }
+}

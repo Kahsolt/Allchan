@@ -1,0 +1,4 @@
+BASC-py4chan
+py8chan
+requests
+SQLAlchemy
